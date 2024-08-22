@@ -42,29 +42,29 @@ const auth  = require('./routes/Auth.js');
 app.use("/users",userRoutes)
 app.use("/auth",auth)
 
+//hello karan gurjar here and i am using my account
+// const jobRoutes=require('./routes/job');
+// app.use("/jobs",jobRoutes)
 
-const jobRoutes=require('./routes/job');
-app.use("/jobs",jobRoutes)
+// const employeeRoute=require('./routes/employer');
+// app.use("/employee",employeeRoute)
 
-const employeeRoute=require('./routes/employer');
-app.use("/employee",employeeRoute)
+// const interviewRoute=require('./routes/interview');
+// app.user("/interview",interviewRoute)
 
-const interviewRoute=require('./routes/interview');
-app.user("/interview",interviewRoute)
+// const jobSeekerRoute=require('./routes/job_seeker');
+// app.user("/jobSeeker",jobSeekerRoute)
 
-const jobSeekerRoute=require('./routes/job_seeker');
-app.user("/jobSeeker",jobSeekerRoute)
+// const appliedJobRoute=require('./routes/applied_job');
+// app.use("/appliedJob",appliedJobRoute)
 
-const appliedJobRoute=require('./routes/applied_job');
-app.use("/appliedJob",appliedJobRoute)
+// const companyRoute=require('./routes/company');
+// app.use("/company",companyRoute)
 
-const companyRoute=require('./routes/company');
-app.use("/company",companyRoute)
+// const eventRoute=require('./routes/event');
+// app.use("/event",eventRoute)
 
-const eventRoute=require('./routes/event');
-app.use("/event",eventRoute)
-
-const notificationRoute=require('./routes/notification');
-app.use("/notification",notificationRoute)
+// const notificationRoute=require('./routes/notification');
+// app.use("/notification",notificationRoute)
 
 
